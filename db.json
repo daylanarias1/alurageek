@@ -1,0 +1,58 @@
+{
+  "productos": [
+    {
+      "nombre": "Producto 11",
+      "descripcion": "Descripción del producto 1",
+      "precio": "1",
+      "url": "https://acortar.link/MisY5U",
+      "categoria": "consola",
+      "id": 1
+    },
+    {
+      "nombre": "Producto 22",
+      "descripcion": "Descripción del producto 22",
+      "precio": "22",
+      "url": "https://acortar.link/MisY5U",
+      "categoria": "consola",
+      "id": 1
+    },
+    {
+      "nombre": "66699",
+      "descripcion": "66699",
+      "precio": "6666699",
+      "url": "https://img.freepik.com/vector-premium/imagen-dibujos-animados-hongo-palabra-hongo_587001-200.jpg?w=2000",
+      "categoria": "66699",
+      "id": "d957f982-dd3e-4a68-997e-78d41cde9fba"
+    },
+    {
+      "nombre": "GTA IV",
+      "descripcion": "GTA IV",
+      "precio": "20000",
+      "url": "https://i.blogs.es/1ca280/trailer-1-illustration-16x9-/450_1000.jpg",
+      "categoria": "Juegos",
+      "id": "862e4eed-1148-4879-b4e3-47e3b40411e5"
+    },
+    {
+      "url": "https://i.blogs.es/1ca280/trailer-1-illustration-16x9-/450_1000.jpg",
+      "categoria": "ss",
+      "nombre": "ss",
+      "precio": "22",
+      "descripcion": "22",
+      "id": "c9fcc4b9-c616-4101-bc02-64f78bbf8527"
+    }
+  ],
+  "usuarios": [
+    {
+      "username": "usuario1",
+      "password": "contraseña1"
+    },
+    {
+      "username": "usuario2",
+      "password": "contraseña2"
+    },
+    {
+      "username": "1",
+      "password": "1"
+    }
+  ]
+}
