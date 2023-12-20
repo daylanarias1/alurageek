@@ -1,7 +1,7 @@
-const listarProductos = () => fetch("http://localhost:3000/productos").then((respuesta) => respuesta.json());
+const listarProductos = () => fetch("https://alurageek-daylans-projects.vercel.app/productos").then((respuesta) => respuesta.json());
 
 const crearProductos = (producto) => {
-    return fetch("http://localhost:3000/productos", {
+    return fetch("https://alurageek-daylans-projects.vercel.app/productos", {
         method: 'POST',
         headers: {
             "Content-type": "application/json"
@@ -11,7 +11,7 @@ const crearProductos = (producto) => {
 };
 
 const obtenerProductosPorCategoria = (categoria) => {
-    return fetch(`http://localhost:3000/productos?categoria=${categoria}`)
+    return fetch(`https://alurageek-daylans-projects.vercel.app/productos?categoria=${categoria}`)
         .then((response) => response.json())
         .catch((error) => {
             console.error('Error al obtener los productos por categoría:', error);
@@ -19,7 +19,7 @@ const obtenerProductosPorCategoria = (categoria) => {
 };
 
 const obtenerProductosPorNombre = (nombre) => {
-    return fetch(`http://localhost:3000/productos`)
+    return fetch(`https://alurageek-daylans-projects.vercel.app/productos`)
         .then((response) => response.json())
         .then((productos) => {
             console.log(productos)
@@ -40,13 +40,13 @@ const obtenerProductosPorNombre = (nombre) => {
 };
 
 const eliminarProductos = (id) => {
-    return fetch(`http://localhost:3000/productos/${id}`, {
+    return fetch(`https://alurageek-daylans-projects.vercel.app/productos/${id}`, {
         method: 'DELETE'
     });
 };
 
 const detalleProductos = (id) => {
-    return fetch(`http://localhost:3000/productos/${id}`)
+    return fetch(`https://alurageek-daylans-projects.vercel.app/productos/${id}`)
         .then((respuesta) => {
             if (!respuesta.ok) {
                 throw new Error("Error en la solicitud al servicio");
@@ -60,7 +60,7 @@ const detalleProductos = (id) => {
 };
 
 const actualizarProducto = (nombre, descripcion, precio, url, categoria, id) => {
-    return fetch(`http://localhost:3000/productos/${id}`, {
+    return fetch(`https://alurageek-daylans-projects.vercel.app/productos/${id}`, {
         method: 'PUT',
         headers: {
             "Content-type": "application/json"
